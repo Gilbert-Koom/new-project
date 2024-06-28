@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="container" id="gilbert">
+        
+        <picture class="image-container">
+            <source media="(min-width:800px)"  srcset="asset/images/illustration-sign-up-desktop.svg">
+            <img src="asset/images/illustration-sign-up-mobile.svg" alt="">
+            
+            
+        </picture>
+    
+        
+        
+        
+        <main class="content-container">
+            <h2>Stay Updated</h2>
+        
+            <p class="message">Join 60,000 product managers receiving monthly updates on;</p>
+            
+            <p class="first"> <img src="asset/images/icon-list.svg" alt="" class="icon-list-1"> Products discovery and building what matters</p>
+            
+            
+            <p class="second"><img src="asset/images/icon-list.svg" alt="" class="icon-list-2"> Measuring to ensure updates are a success</p>
+            
+            
+            <p> <img src="asset/images/icon-list.svg" alt="">And much more!</p>
+            <div class="form-container">
+                <form action="#" id="email-form" novalidate>
+                    <div>
+                        <label for="email" >Email address</label>
+                        <small id="error" ></small>
+                        <input onfocus="mrFocus()" type="email" name="mail" id="email" placeholder="email@company.com">
+                        
+                    </div>
+                    <button id="my-button">Subscribe to our monthly newsletter</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <div id="demo" style="display: none;">
+        <img src="asset/images/icon-list.svg" alt="" srcset="">
+        <h1>Thanks for subscribing!</h1>
+        <p>A confirmation email has been sent to <span>ash@loremcompany.com.</span> Please open it and click the button inside to confirm your subscription</p>
+        <button id="dismissButton" onclick="dismissal()">Dismiss message</button>
+
+
+    </div>
+    
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/validator@13.6.0/validator.min.js"></script>
+</body>
+</html> 

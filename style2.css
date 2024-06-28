@@ -1,0 +1,4 @@
+html {
+    font-size: clamp(1rem, 0.2rem + 1.2vw, 1.7rem);
+  }
+  
